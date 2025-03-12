@@ -149,7 +149,7 @@ impl Database {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use rusqlite::{Connection, Result};
+    use rusqlite::Connection;
     use std::fs::File;
     use std::io::Write;
 
